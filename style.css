@@ -118,3 +118,44 @@ a {
   height: 800px;
   width: auto;
 }
+
+/* Information Style */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 96px;
+  padding-bottom: 96px;
+
+  color: #1F2937;
+  text-align: center;
+}
+
+.info .title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info .content {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+}
+
+.info .item {
+  flex: auto;
+  list-style-type: none;
+
+  padding: 16px;
+}
+
+.info img {
+  border-radius: 12px;
+  border: solid #3882F6;
+
+  object-fit: cover;
+}
