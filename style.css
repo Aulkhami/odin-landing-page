@@ -177,3 +177,28 @@ a {
 .quote .author {
   text-align: right;
 }
+
+/* Call to Action Style */
+
+.cta {
+  background-color: #3882F6;
+  color: #F9FAF8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  margin: 72px 64px;
+  padding: 32px 128px;
+
+  border-radius: 24px;
+}
+
+.cta .primary {
+  margin: 8px 0;
+}
+
+.cta .secondary {
+  margin: 8px 0;
+}
