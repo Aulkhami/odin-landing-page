@@ -187,12 +187,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
 
-  margin: 72px 64px;
+  margin: 72px 0;
   padding: 32px 128px;
 
   border-radius: 24px;
+}
+
+.cta .text {
+  padding-right: 72px;
 }
 
 .cta .primary {
@@ -201,4 +204,24 @@ a {
 
 .cta .secondary {
   margin: 8px 0;
+}
+
+.cta .link-button {
+  flex: none;
+
+  border: solid #F9FAF8;
+  border-radius: 12px;
+}
+
+.cta .link-button a {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 21px;
+}
+
+.cta .link-button:hover {
+  background-color: #00000011;
 }
